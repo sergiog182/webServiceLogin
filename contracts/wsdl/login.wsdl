@@ -10,8 +10,8 @@
     <wsdl:types>
         
         <xsd:schema name="http://xml.login.com/Login">
-            <xsd:import namespace="http://xml.login.com/loginRequest" schemaLocation="http://localhost:8082/webServiceLogin/contracts/xsd/loginRequest.xsd" />
-            <xsd:import namespace="http://xml.login.com/loginResponse" schemaLocation="http://localhost:8082/webServiceLogin/contracts/xsd/loginResponse.xsd" />
+            <xsd:import namespace="http://xml.login.com/loginRequest" schemaLocation="http://localhost/webServiceLogin/contracts/xsd/loginRequest.xsd" />
+            <xsd:import namespace="http://xml.login.com/loginResponse" schemaLocation="http://localhost/webServiceLogin/contracts/xsd/loginResponse.xsd" />
         </xsd:schema>
         
     </wsdl:types>
