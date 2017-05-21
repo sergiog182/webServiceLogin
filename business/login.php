@@ -12,16 +12,12 @@
 			$out = new stdClass();
 			try {
 				if (empty($in->sumandoa) || empty($in->sumandob)) {
-					$out->status = "NOK";
-					$out->statusMessage = "La suma requiere dos numeros";
+					$out->status = false;
 				} else {
-					$out->resultado = $in->sumandoa + $in->sumandob;
-					$out->status = "OK";
-					$out->statusMessage = "Suma realizada";	
+					$out->status = true;
 				}
 			} catch(Exception $e) {
-				$out->status = "NOK";
-				$out->statusMessage = $e->getMessage();
+				$out->status = false;
 			}
 
 			return $out;
