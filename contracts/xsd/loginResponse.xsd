@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema 
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-    xmlns="http://xml.calculadora.com/sumarResponse"
-    targetNamespace= "http://xml.calculadora.com/sumarResponse"
+    xmlns="http://xml.login.com/sumarResponse"
+    targetNamespace= "http://xml.login.com/sumarResponse"
     elementFormDefault="qualified">
     
-    <xsd:element name="sumarResponse">
+    <xsd:element name="loginResponse">
         <xsd:complexType>
             <xsd:sequence>
 
