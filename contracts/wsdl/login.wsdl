@@ -2,14 +2,14 @@
 <wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
                   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-                  xmlns:tns="http://xml.login.com/Calculadora" 
-                  targetNamespace="http://xml.login.com/Calculadora" 
-                  xmlns:loginIn ="http://xml.login.com/sumarRequest"
-                  xmlns:loginOut ="http://xml.login.com/sumarResponse"
+                  xmlns:tns="http://xml.login.com/Login" 
+                  targetNamespace="http://xml.login.com/Login" 
+                  xmlns:loginIn ="http://xml.login.com/loginRequest"
+                  xmlns:loginOut ="http://xml.login.com/loginResponse"
 >
     <wsdl:types>
         
-        <xsd:schema name="http://xml.login.com/Booking">
+        <xsd:schema name="http://xml.login.com/Login">
             <xsd:import namespace="http://xml.login.com/loginRequest" schemaLocation="http://localhost/webServiceLogin/Contracts/xsd/loginRequest.xsd" />
             <xsd:import namespace="http://xml.login.com/loginResponse" schemaLocation="http://localhost/webServiceLogin/Contracts/xsd/loginResponse.xsd" />
         </xsd:schema>
