@@ -9,7 +9,6 @@
 		* $out->status boolean indica si el usuario es autorizado
 		*/
 		public function login($in) {
-			error_log(var_export($in, true));
 			$out = new stdClass();
 			try {
 				if (empty($in->user) || empty($in->password)) {
